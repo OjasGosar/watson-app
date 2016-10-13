@@ -8,7 +8,7 @@ config:
   type: text
   global: true
 - name: WATSON_PERSONALITY_INSIGHTS_USERNAME
-  friendly_name: WATSON_PERSONALITY_INSIGHTS_USERNAME Secret
+  friendly_name: WATSON_PERSONALITY_INSIGHTS_USERNAME
   info: watson personality user name
   type: secret
   global: true
