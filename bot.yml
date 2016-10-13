@@ -1,0 +1,28 @@
+name: Watson App
+description: A Watson App personality integration that provides disturbingly accurate personality insights
+avatar: resources/avatar.jpg
+config:
+- name: WATSON_PERSONALITY_INSIGHTS_API_URL
+  friendly_name: WATSON_PERSONALITY_INSIGHTS_API_URL
+  info: watson personality insights api url
+  type: text
+  global: true
+- name: WATSON_PERSONALITY_INSIGHTS_USERNAME
+  friendly_name: WATSON_PERSONALITY_INSIGHTS_USERNAME Secret
+  info: watson personality user name
+  type: secret
+  global: true
+- name: WATSON_PERSONALITY_INSIGHTS_PASSWORD
+  friendly_name: WATSON_PERSONALITY_INSIGHTS_PASSWORD
+  info: watson personality password
+  type: secret
+  global: true
+- name: WATSON_PERSONALITY_INSIGHTS_VERSION
+  friendly_name: WATSON_PERSONALITY_INSIGHTS_VERSION
+  info: personality insights version
+  type: text
+  global: true
+slackscopes:
+  - bot
+  - commands
+  - incoming-webhook
